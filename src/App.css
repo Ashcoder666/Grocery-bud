@@ -5,3 +5,9 @@
     margin: 100px auto 0px auto;
     text-align: center;
 }
+.success{
+    background-color: green;
+}
+.danger{
+    background-color: red;
+}
