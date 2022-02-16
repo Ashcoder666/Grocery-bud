@@ -22,7 +22,11 @@ const App = () => {
           return{ ...item,title:name}
         }
         return item
-      }))
+      })
+      )
+      setEditID(null)
+      setName('')
+      setIsEditing(false)
      }else{
        setAlert({show:true,msg:"new item created",type:"success"})
        const newitem = {id:new Date().getTime().toString(),title:name}
